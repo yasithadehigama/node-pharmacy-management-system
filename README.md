@@ -15,5 +15,5 @@
 
 - install postman in your computer(https://www.postman.com/downloads/)
 - after you install postman in your machine then import attached postman collection in email
-- first execute /api/user/register API and after that you can get a token from /api/user/login
+- first execute POST /api/user/register API and after that you can get a token from POST /api/user/login
 - then you can execute other APIs with generated token

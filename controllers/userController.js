@@ -34,7 +34,6 @@ const userRegister = async (req, res) => {
       }
     }
   });
-  console.log("Closing DB connection");
 };
 
 const userLogin = async (req, res) => {

@@ -1,8 +1,5 @@
-//const db = require("../models/db");
 const bcrypt = require("bcrypt");
-const { raw } = require("express");
 const jwt = require("jsonwebtoken");
-var sqlite3 = require("sqlite3").verbose();
 const db = require("../models/db");
 
 const userRegister = async (req, res) => {

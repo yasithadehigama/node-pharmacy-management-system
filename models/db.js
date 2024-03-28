@@ -1,6 +1,6 @@
 const sqlite3 = require("sqlite3").verbose();
 
-let db = new sqlite3.Database("data4.db", (err) => {
+let db = new sqlite3.Database("data.db", (err) => {
   if (err) {
     console.error(err.message);
     throw err;
@@ -34,7 +34,7 @@ let db = new sqlite3.Database("data4.db", (err) => {
         if (err) {
           throw err;
         } else {
-          console.log("user table created");
+          console.log("customer table created");
         }
       }
     );
